@@ -1,6 +1,8 @@
 .App {
-  text-align: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -36,4 +38,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+.image-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image-section img {
+  width: 100px;
+}
+.animal-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(122, 122, 122);
+  height: 350px;
+  width: 200px;
+  border: 1px black solid;
+  border-radius: 5px;
+  margin: 5px;
+}
+.filter-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
